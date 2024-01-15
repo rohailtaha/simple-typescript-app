@@ -1,8 +1,1 @@
-"use strict";
-var _a;
-function showSum(num1, num2) {
-    console.log("".concat(num1, " + ").concat(num2, " = ").concat(num1 + num2));
-    alert("".concat(num1, " + ").concat(num2, " = ").concat(num1 + num2));
-}
-(_a = document
-    .querySelector('button')) === null || _a === void 0 ? void 0 : _a.addEventListener('click', function () { return showSum(4, 5); });
+(()=>{"use strict";var o,t,e={634:(o,t)=>{Object.defineProperty(t,"__esModule",{value:!0}),t.showSum=void 0,t.showSum=function(o,t){console.log("".concat(o," + ").concat(t," = ").concat(o+t)),alert("".concat(o," + ").concat(t," = ").concat(o+t))}}},c={};t=function o(t){var n=c[t];if(void 0!==n)return n.exports;var r=c[t]={exports:{}};return e[t](r,r.exports,o),r.exports}(634),null===(o=document.querySelector("button"))||void 0===o||o.addEventListener("click",(function(){return(0,t.showSum)(4,5)}))})();
